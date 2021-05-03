@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* @keyframes background {
+    0%{
+        background-image: url("https://www.jncreative.com/wp-content/uploads/2013/09/web-design-portfolio-background.jpg");
+    }
+    20%{
+        background-image: url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydGZvbGlvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    }
+    40%{
+        background-image: url("https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header.jpg");
+    }
+    60%{
+        background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/75/32/zKYG1E.jpg");
+    }
+    80%{
+        background-image: url("https://cdn.dribbble.com/users/73804/screenshots/322200/el.png");
+    }
+     100%{
+        background-image: url("https://www.webzfusion.com/wp-content/uploads/2015/04/portfolio-background.gif");
+    }
+} */
+li{
+    list-style-type: none;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: teal;
+    box-shadow: 3px 2px 14px blue;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.textc{
+     display: flex;
+     flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 500px;
+  margin-left: 0%;
+  margin-right: 0%;
+
+  
+}
+.textc p{
+ font-size: 25px;
+ color:white;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+button{
+    color: white;
+}
+.txt{
+    text-align: center;
+    text-decoration: underline;
+    animation: mymove 5s infinite;
+    /* font-family: 'Freckle Face', cursive; */
+}
+@keyframes mymove{
+    0%{
+        color: teal;
+    }
+    30%{
+        color: black;
+    }
+    60%{
+        color: turquoise;
+    }
+    80%{
+        color: violet;
+    }
+    100%{
+        color: wheat;
+    }
+}
+.infor{
+    text-align: center;
+    font-size: 150%;
+    
+    
+}
+
+
+.column-2a {
+ display: flex;
+  flex-direction: column;
+  
+  width: auto;
+  padding: 20px;
+  padding-left:70px;
+  padding-right: 70px;
+  padding-bottom:60px;
+  height: auto;
+  margin:30px;
+  margin-left: 8%;
+  margin-right:10%;
+  margin-bottom: 40px;
+  background-color:white;
+  /* border-radius: 5px solid black; */
+  /* border-radius: 3%; */
+  border-style: outset;
+  box-shadow: 0rem 1rem 2rem rgb(128, 128, 161);
+  
+}
+  
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.usnews.com/dims4/USNEWS/0be1944/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F07%2F00354c85a0a99b4abfd67d48bd3e4c%2Fjobs-job-photo-101.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.textc{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.thoughtco.com/thmb/c7HLmKxe5Gjjo_QW-W4h-nea96I=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/industry-4-0-car-frame---landscape-954178086-5bd99d1846e0fb0051a52d39.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+}
+.textimgage{
+   text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 2rem;
+}
+.imageColumn {
+   float: left;
+   width: 25%;
+   padding: 10px;
+   box-shadow: 0rem 1rem 2rem #666c;
+}
+.navbar-nav{
+    float: right;
+}
